@@ -19,7 +19,7 @@ class MainKtTest {
         val lastTransfer = 500_000
         val amount = 150_000
         val res = tax(cardName = cardName, lastTransfer = lastTransfer, amount = amount)
-        assertEquals(- 0, res) //expected -1
+        assertEquals(- 1, res)
     }
 
     @Test
